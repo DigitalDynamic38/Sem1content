@@ -1,0 +1,40 @@
+.header{
+    color:white; 
+    /* #BDD8E9 */
+    position:static;
+    padding-left: 5cm;
+    font-size: 25px;
+    font-weight: bolder; 
+    }
+hr{
+    color:white;
+    width:100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+} 
+.box{
+    height:6.5cm;
+    width:6.5cm; 
+    border:2px solid white;
+    border-radius: 5px 35px;
+    outline: 2px solid rgb(247, 240, 240);
+    margin:1cm;
+    line-height: 300px;
+    text-align:center;
+    box-shadow:3px 2px 10px inset, 
+              -1px -1px 10px inset;
+}
+
+.box img{
+    height:7cm;
+    width:7cm;
+    border:2px solid white;
+    border-radius: 5px 35px;
+}
+.box img:hover{
+            transform: scale(0.9); 
+}
